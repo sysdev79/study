@@ -8,3 +8,9 @@
 - CentOS lastest 8
 - Python 3.8.5
 - VSCode Remote Deveopment Attach to Running Container (Docker)
+# Setup Development Environment
+- Docker
+  - powershell
+  - docker search centos
+  - docker images
+  - docker pull centos
