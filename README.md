@@ -19,9 +19,26 @@
   - docker ps -a
   - docker rm [containername]
   - docker rmi [imagename]
+- CentOS
+  - mkdir workspace
 - Python 3.8.5
   - yum install gcc openssl-devel bzip2-devel libffi-devel
   - yum install wget
   - yum install make
   - wget https://www.python.org/ftp/python/3.8.5/Python-3.8.5.tgz
   - ./configure, make, make install
+- git
+  - yum install git
+  - git config -l
+  - git config --global color.ui auto
+  - git config --global alias.st status
+  - git config --global user.name "[name]"
+  - get config --global user.email [mailaddress]
+- VSCode (Windows)
+  - install extension "Remote Development"
+  - restart
+  - ^~+p
+  - Docker running state
+  - Remote-Containers : Attach to Running Container...
+  - Select Docker Container
+  - giithub setting
