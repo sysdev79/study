@@ -7,6 +7,7 @@
 - Window based Docker
 - CentOS lastest 8
 - Python 3.8.5
+- Go 1.15.2
 - VSCode Remote Deveopment Attach to Running Container (Docker)
 # Setup Development Environment
 - Docker
@@ -27,6 +28,10 @@
   - yum install make
   - wget https://www.python.org/ftp/python/3.8.5/Python-3.8.5.tgz
   - ./configure, make, make install
+- Go 1.15.2
+  - wget https://golang.org/dl/go1.15.2.linux-amd64.tar.gz
+  - tar -C /usr/local -xf go1.15.2.linux-amd64.tar.gz
+  - shell PATH
 - git
   - yum install git
   - git config -l
@@ -42,3 +47,5 @@
   - Remote-Containers : Attach to Running Container...
   - Select Docker Container
   - giithub setting
+  - Python Plug_in Install
+  - Go Plug_in Install
