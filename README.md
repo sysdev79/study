@@ -40,6 +40,9 @@
   - wget https://golang.org/dl/go1.15.2.linux-amd64.tar.gz
   - tar -C /usr/local -xf go1.15.2.linux-amd64.tar.gz
   - shell PATH setting
+
+- js
+  - node.js
   
 - git
   - yum install git
