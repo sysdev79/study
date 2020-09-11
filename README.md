@@ -22,7 +22,9 @@
   - docker ps -a
   - docker rm [containername]
   - docker rmi [imagename]
-  - docker exec -it [containername]
+  - docker stop [containername]
+  - docker start [containername]
+  - docker exec -it [containername] /bin/bash
   
 - CentOS
   - mkdir workspace
