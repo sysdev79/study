@@ -9,6 +9,7 @@
 - CentOS lastest 8
 - Python 3.8.5
 - Go 1.15.2
+- Node.js 10.21.0
 - VSCode Remote Deveopment Attach to Running Container (Docker)
 
 # Setup Development Environment
@@ -28,7 +29,7 @@
   
 - CentOS
   - mkdir workspace
-  
+
 - Python 3.8.5
   - yum install gcc openssl-devel bzip2-devel libffi-devel
   - yum install wget
@@ -42,7 +43,9 @@
   - shell PATH setting
 
 - js
-  - node.js
+  - yum repolist
+  - yum install epel-release
+  - yum -y install nodejs
   
 - git
   - yum install git
