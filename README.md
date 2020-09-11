@@ -20,6 +20,7 @@
   - docker ps -a
   - docker rm [containername]
   - docker rmi [imagename]
+  - docker exec -it [containername]
 - CentOS
   - mkdir workspace
 - Python 3.8.5
