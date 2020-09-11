@@ -31,7 +31,7 @@
 - Go 1.15.2
   - wget https://golang.org/dl/go1.15.2.linux-amd64.tar.gz
   - tar -C /usr/local -xf go1.15.2.linux-amd64.tar.gz
-  - shell PATH
+  - shell PATH setting
 - git
   - yum install git
   - git config -l
@@ -39,6 +39,7 @@
   - git config --global alias.st status
   - git config --global user.name "[name]"
   - get config --global user.email [mailaddress]
+  - github setting
 - VSCode (Windows)
   - install extension "Remote Development"
   - restart
