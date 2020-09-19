@@ -4,10 +4,10 @@
 package main
 
 import (
-	"fmt"
-	"os"
 	"log"
-	"github.com/webgenie/go-in-action/blob/master/chapter2/sample/search"
+	"os"
+
+	_ "github.com/webgenie/go-in-action/tree/master/chapter2/sample/matchers"
 )
 
 // construct 처럼 동작
